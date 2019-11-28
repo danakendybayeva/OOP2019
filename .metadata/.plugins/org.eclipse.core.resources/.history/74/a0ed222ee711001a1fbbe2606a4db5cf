@@ -1,0 +1,17 @@
+package myPart;
+
+import java.util.*;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+        String s = in.nextLine();
+        String[] partsOfStr = s.split(" ");
+//        System.out.println("You entered string "+s);
+        for(String str : partsOfStr) {
+        	System.out.println(str);
+        }
+	}
+
+}

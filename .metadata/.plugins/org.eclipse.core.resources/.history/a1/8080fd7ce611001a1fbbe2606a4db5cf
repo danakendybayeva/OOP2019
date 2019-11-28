@@ -1,0 +1,13 @@
+package myPart;
+
+import java.io.*;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+	     String name = System.console().readLine();
+	     System.out.println(name);		
+	}
+
+}

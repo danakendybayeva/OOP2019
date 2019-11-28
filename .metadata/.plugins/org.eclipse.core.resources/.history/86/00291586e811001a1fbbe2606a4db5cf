@@ -1,0 +1,19 @@
+package myPart;
+
+public class UserFactory {
+	
+	public void createUser(String userType) {
+		User newUser = null;
+		if(userType.equals("S")) {//student
+			
+		} else if(userType.equals("T")) {//teacher
+			
+		} else if(userType.equals("E")) {//executor
+			
+		} else if(userType.equals("M")) {//manager
+			
+		} else if(userType.equals("M")) {//manager
+			
+		}
+	}
+}

@@ -1,0 +1,13 @@
+package myPart;
+
+public class Course {
+	private Days d;
+	private Time t;
+	public Days getD() {
+		return d;
+	}
+	public Time getT() {
+		return t;
+	}
+	
+}

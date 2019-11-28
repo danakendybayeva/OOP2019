@@ -1,0 +1,17 @@
+package myPart;
+import java.util.*;
+
+public class Student extends User{
+	private String studentId, faculty;
+	private int yearOfStudy = 1, credits;
+	private boolean hasAccess;
+	private double debt;
+	private SortedSet<Transcript> semesters;
+	private Schedule schedule;
+	private Attendance attendance;
+	
+	public Student(String name) {
+		super(name);
+	}
+	
+}

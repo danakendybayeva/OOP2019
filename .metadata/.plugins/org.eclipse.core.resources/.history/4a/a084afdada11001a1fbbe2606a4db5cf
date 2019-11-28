@@ -1,0 +1,100 @@
+package myPart;
+import java.util.*;
+
+public class Student extends User{
+	private String studentId, faculty;
+	private int yearOfStudy = 1, credits;
+	private boolean hasAccess;
+	private double debt;
+	private SortedSet<Transcript> semesters;
+	private Schedule schedule;
+//	private Attendance attendance;
+	
+	public Student(String name) {
+		super(name);
+	}
+
+	public String getStudentId() {
+		return studentId;
+	}
+
+	public void setStudentId(String studentId) {
+		this.studentId = studentId;
+	}
+
+	public String getFaculty() {
+		return faculty;
+	}
+
+	public void setFaculty(String faculty) {
+		this.faculty = faculty;
+	}
+
+	public int getYearOfStudy() {
+		return yearOfStudy;
+	}
+
+	public void setYearOfStudy(int yearOfStudy) {
+		this.yearOfStudy = yearOfStudy;
+	}
+
+	public int getCredits() {
+		return credits;
+	}
+
+	public void setCredits(int credits) {
+		this.credits = credits;
+	}
+
+	public boolean isHasAccess() {
+		return hasAccess;
+	}
+
+	public void setHasAccess(boolean hasAccess) {
+		this.hasAccess = hasAccess;
+	}
+
+	public double getDebt() {
+		return debt;
+	}
+
+	public void setDebt(double debt) {
+		this.debt = debt;
+	}
+
+	public SortedSet<Transcript> getSemesters() {
+		return semesters;
+	}
+
+	public void setSemesters(SortedSet<Transcript> semesters) {
+		this.semesters = semesters;
+	}
+
+	public Schedule getSchedule() {
+		return schedule;
+	}
+
+	public void setSchedule(Schedule schedule) {
+		this.schedule = schedule;
+	}
+	
+	public void registrateToCourse(Course course) {
+		
+	}
+	
+	public void dropCourse(Course course) {
+		
+	}
+	
+	public void viewTranscript() {
+		
+	}
+	
+	public void registrateToCourse(HashSet<Course> courses){
+		
+	}
+	
+	public void chooseTeacher(Course course, Teacher teacher) {
+		
+	}
+}
