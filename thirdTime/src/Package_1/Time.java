@@ -1,0 +1,16 @@
+package Package_1;
+
+public enum Time {
+	EIGHT,
+	NINE,
+	TEN,
+	ELEVEN,
+	TWELVE,
+	THIRTEEN,
+	FOURTEEN,
+	FIFTEEN,
+	SIXTEEN,
+	SEVENTEEN,
+	EIGHTEEN,
+	NINETEEN
+}
