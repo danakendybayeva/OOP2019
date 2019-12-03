@@ -24,6 +24,13 @@ public class Admin extends Employee{
     		Singletone.addUser(user);
     	}
     }
+    
+    public Employee getEmployee(String userName, String password, String firstName, String lastName, int salary, String type) throws ClassNotFoundException, IOException {
+    	Employee e = EmployeeFactory.createEmployee(userName, password, firstName, lastName, salary, type);
+    	addUser(e);
+    	
+    	return e;
+    }
     /**
      * deletes user
      * @param user 

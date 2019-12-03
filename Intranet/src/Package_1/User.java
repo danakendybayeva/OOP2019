@@ -136,7 +136,7 @@ public abstract class User implements Serializable, Cloneable, Comparable{
 	public int CompareTo(Object o) {
 		User u = (User) o;
 		if(userId > u.getUserId()) return 1;
-		if(userId < u.getUserId()) return -1;
+		if(userId<u.getUserId()) return -1;
 		return 0;
 	}
 }

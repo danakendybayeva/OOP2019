@@ -1,18 +1,21 @@
 package Package_1;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collections;
 
 public class Test {
 
 	public static void main(String[] args) throws ClassNotFoundException, IOException {
-		//a.addUser(new Student("nyasha", "qweasdzxc123", "Nurbergen", "Lalala", "18BD110937", 2018, Faculty.FIT));
-		try {
-			User nurik = User.logIn("nyasha", "qweasdzxc13");
-			System.out.println(nurik);
-		}catch(IncorrectPasswordOrLoginException ex) {
-			System.out.println(ex.getMessage());
-		}
-		//a.sendOrder(new Order(a, "GG"));
+		ArrayList<DayAndTime> ar = new ArrayList<DayAndTime>();
+		ar.add(new DayAndTime(Days.MON, Time.SIXTEEN));
+		ar.add(new DayAndTime(Days.FRI, Time.ELEVEN));
+		ar.add(new DayAndTime(Days.THU, Time.FIFTEEN));
+		ar.add(new DayAndTime(Days.MON, Time.EIGHT));
+		ar.add(new DayAndTime(Days.WED, Time.EIGHT));
+		System.out.println(ar);
+		Collections.sort(ar);
+		System.out.println(ar);
 	}
 
 }
